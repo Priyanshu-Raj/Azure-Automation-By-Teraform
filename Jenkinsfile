@@ -53,7 +53,7 @@ pipeline{
             steps{
                 
                 sh 'mvn package'
-                sh 'mvn compile
+                sh 'mvn compile'
                 
             }
         }
